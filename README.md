@@ -11,7 +11,7 @@ This rule prevents you from unintentionally adding a case to a pattern match tha
 The rule looks for:
 
 * case where the `_` wild card is used with no guards
-* case where the pattern is just a variable that does not start `_` with no guards
+* case where the pattern is just a variable that does not start with `_` with no guards
 
 You can disable the rule in a given scope using the `@SuppressWarnings("MatchAll")` annotation.
 
