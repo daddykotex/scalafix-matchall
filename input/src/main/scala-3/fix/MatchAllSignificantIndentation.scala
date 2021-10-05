@@ -11,7 +11,7 @@ object MatchAllSignificantIndentation:
   val pf: PartialFunction[String, Unit] =
     case _ => println("pf") /* assert: MatchAll
          ^
-Avoid wildcard pattern matching. Prefer exhaustivity checking. To disable, annotate with @SuppressWarnings("MatchAll")
+Avoid wildcard pattern matching. Prefer exhaustivity checking. To disable, annotate with @SuppressWarnings(Array("MatchAll"))
 */
 
 
